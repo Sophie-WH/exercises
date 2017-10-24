@@ -21,4 +21,4 @@ elif Num == "9":
 elif Num == "10":
     print ("X")
 else:
-    print ("Error, not between 1 and 7.")
+    print ("Error, not between 1 and 10.")

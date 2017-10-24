@@ -5,14 +5,20 @@
 # then uses a loop to compute the cumulative distance traveled by each hour,
 # and displays a table of results, which each hour on its own line 
 
-
 # Declare variables for the distance, speed, and time.
 # initialize these as integers
 
+distance = 0
+speed = 0
+time = 0
+
 # Get the speed as input from the user and cast it appropriately.
+
+speed = int(input("Please enter the speed: "))
     
 # Get time traveled as input and cast it appropriately
 
+time = int(input("Please enter the time traveled: "))
 
 # Display the table header: Hour and Distance separated by a tab
 # Display an separator line composed of underscores
