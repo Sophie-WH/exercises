@@ -21,7 +21,6 @@ def main():
         x += 1
         # print the current line number without carriage return
         line = filename.readline()
-        end = ""
         print (str(x) + ": "),
         # Strip the '\n' from the end of the line
         # display the line (should be on same line as line number)
